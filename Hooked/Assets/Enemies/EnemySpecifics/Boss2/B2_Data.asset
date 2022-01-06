@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 107f9f45115a5478fa31aa2a8ab53467, type: 3}
+  m_Name: B2_Data
+  m_EditorClassIdentifier: 
+  maxHealth: 50
+  moveSpeed: 4
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 64
+  projectileDamage: 10
+  projectileSpeed: 10
+  projectile: {fileID: 2103984765608855761, guid: bd1cd9bf6c92242c08afafe25e1723e9, type: 3}
+  closeRangeAttackRadius: 2
+  closeRangeAttackCoolDown: 2.5
+  CRDamage: 10
+  longRangeAttackCoolDown: 2
+  longRangeAttackRadius: 3.5
+  hitParticle: {fileID: 100000, guid: f06e78284f831ae469c74624ab5d513b, type: 3}
+  deadParticle: {fileID: 1892078723244562, guid: 46876a2780737ec45a19d62f88e5ce56, type: 3}
